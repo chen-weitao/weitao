@@ -4,6 +4,7 @@ date: "2021-10-18"
 disable_mathjax: False
 disable_highlight: False
 disable_comments: Fasle
+comment: false
 ---
 
 I'm an undergraduate, studying at Zhejiang Gongshang University, majoring in Financial Engineering. I'm a novice at building a static website. If you have any suggestions, please contact me via this E-Mail(431259878@qq.com).
