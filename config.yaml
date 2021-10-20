@@ -43,15 +43,12 @@ menu:
     - name: "简历"
       url: "/cn/vitae/"
       weight: 4
-    - name: "菜谱"
-      url: "/cn/recipe/"
-      weight: 5
     - name: "事务"
       url: "/cn/todo/"
-      weight: 6
+      weight: 4
     - name: "English"
       url: "/en/"
-      weight: 7
+      weight: 5
 params:
   description: "Personal website of Weitao Chen; 陈伟涛的个人网站"
   footer: "&copy; [Weitao Chen](/) 2001 - 2021"

@@ -1,5 +1,5 @@
 ---
-title: 日志
+title: 简介
 date: '2021-10-18'
 disable_mathjax: true
 disable_highlight: true
