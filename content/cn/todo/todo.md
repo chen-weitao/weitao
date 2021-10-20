@@ -1,6 +1,6 @@
 ---
 title: Yihui's TODO List
-slug: todo
+slug: cn/todo
 ---
 
 This page contains my TODO items, which I try to update every day. I guess I will never be able to finish all the work, so I will appreciate your help with any of the items on this page (fixing bugs, answering questions, or implementing features). Please feel free to let me know if you want to work on anything, and I will be happy to assist you.
