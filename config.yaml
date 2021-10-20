@@ -45,13 +45,13 @@ menu:
       weight: 4
     - name: "事务"
       url: "/cn/todo/"
-      weight: 4
+      weight: 5
     - name: "English"
       url: "/en/"
-      weight: 5
+      weight: 6
 params:
   description: "Personal website of Weitao Chen; 陈伟涛的个人网站"
-  footer: "&copy; [Weitao Chen](/) 2001 - 2021"
+  footer: "&copy; [Weitao Chen](/) 2021 - 2021"
   disqusURL: "https://weitao.netlify.app"
   disqusShortname: "weitao-chen" #看disqus教程，不用改disqus.html
   customJS:
