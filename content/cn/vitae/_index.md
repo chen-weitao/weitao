@@ -3,7 +3,7 @@ title: "简历"
 date: "2021-10-19"
 disable_mathjax: true
 disable_highlight: true
-disable_comments: ""
+disable_comments: false
 ---
 
 陈伟涛，浙江工商大学本科学在读，主修金融工程专业。
