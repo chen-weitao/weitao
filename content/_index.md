@@ -1,8 +1,8 @@
 ---
 title: "Homepage"
 date: "2021-10-18"
-disable_mathjax: true
-disable_highlight: true
+disable_mathjax: False
+disable_highlight: False
 disable_comments: Fasle
 ---
 
