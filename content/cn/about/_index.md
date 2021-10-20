@@ -1,9 +1,8 @@
 ---
 title: "关于"
-slug: "cn/links"
 author: Weitao Chen|陈伟涛
 date: "2021-10-19"
-disable_comments: true
+disable_comments: false
 ---
 
 陈伟涛，浙江工商大学本科学在读，主修金融工程专业。
