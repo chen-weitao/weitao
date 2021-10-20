@@ -1,5 +1,6 @@
 ---
 title: "关于"
+slug: "cn/links"
 author: Weitao Chen|陈伟涛
 date: "2021-10-19"
 disable_comments: true
