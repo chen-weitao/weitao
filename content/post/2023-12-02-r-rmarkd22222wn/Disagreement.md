@@ -36,7 +36,7 @@ background-position: 90% 8%
 
 ## 结论
 
-- 投资者分歧降低股票未来收益率
+- [slide link](/Disagreement.html)投资者分歧降低股票未来收益率
 
 - 盈利与预期偏差，投资者分歧和未来预期收益率的相关性
 
