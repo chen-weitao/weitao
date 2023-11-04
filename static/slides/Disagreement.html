@@ -41,21 +41,21 @@ class: center, middle, inverse, title-slide
 
 
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## 结论
 
-- 投资者分歧降低股票未来收益率
+- 投资者分歧和预期股票收益率负相关
 
-- 盈利与预期偏差，投资者分歧和未来预期收益率的相关性
+- 盈利与预期偏差影响二者相关性
 
-- 在高贝塔、难以卖空的股票中更明显，二者相关性
+- 二者相关性在高贝塔、难以卖空的股票中更明显
 
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
@@ -68,11 +68,11 @@ background-position: 90% 8%
 
 1. Customers：散户和机构投资者（对冲基金）
 
-2. Firms：Proprietary Trading Desks(和做市商的相关性0.44)
+2. Firms：Proprietary Trading Desks（和做市商的相关性0.44）
 
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
@@ -86,15 +86,21 @@ background-position: 90% 8%
 `$$POS=\small\sum{\left| {{\Delta }^{Call}} \right|\left( O{{B}^{Call}}+C{{B}^{Call}} \right)+\left| {{\Delta }^{Put}} \right|\left( O{{S}^{Put}}+C{{S}^{Put}} \right)}$$`
 
 `$$NEG=\small\sum{\left| {{\Delta }^{Put}} \right|\left( O{{B}^{Put}}+C{{B}^{Put}} \right)+\left| {{\Delta }^{Call}} \right|\left( O{{S}^{Call}}+C{{S}^{Call}} \right)}$$`
+
+--
+
 - 标准化
 `$$Disagreement=\small\frac{Min(POS,NEG)}{Max(POS,NEG)}$$`
+
+--
+
 - 去除开盘卖出看涨期权的成交量
 `$$DisagreementSC=\small\frac{Min(POS,NE{{G}^{SC}})}{Max(POS,NE{{G}^{SC}})}$$`
 
 `$$NE{{G}^{SC}}=\small\sum{\left| {{\Delta }^{Put}} \right|\left( O{{B}^{Put}}+C{{B}^{Put}} \right)+\left| {{\Delta }^{Call}} \right|\left( C{{S}^{Call}} \right)}$$`
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
@@ -109,6 +115,8 @@ background-position: 90% 8%
 
 `$$Directional=\small\frac{Directional}{Max(POS,NEG)}$$`
 
+--
+
 - 其余投资者分歧指标：分析师预测离散度、换手率和共同基金持股分散度
 
 - 和股票特征相关的指标：市值、账面市值比、异质性波动率、动量和机构持有量等
@@ -117,7 +125,7 @@ background-position: 90% 8%
 
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
@@ -235,7 +243,7 @@ background-position: 90% 8%
 
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
@@ -296,12 +304,12 @@ background-position: 90% 8%
    &lt;td style="text-align:right;"&gt; 0.49 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-   &lt;td style="text-align:left;padding-left: 2em;" indentlevel="1"&gt; log(Size) &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; 0.37 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; -0.10 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; -0.09 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; -0.05 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; 0.49 &lt;/td&gt;
+   &lt;td style="text-align:left;padding-left: 2em;" indentlevel="1"&gt; Ret &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.04 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -0.11 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.01 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.01 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr grouplength="6"&gt;&lt;td colspan="6" style="border-bottom: 1px solid;"&gt;&lt;strong&gt;B. 500 largest stocks&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;
@@ -345,57 +353,57 @@ background-position: 90% 8%
    &lt;td style="text-align:right;"&gt; 1.00 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-   &lt;td style="text-align:left;padding-left: 2em;" indentlevel="1"&gt; log(Size) &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; 0.37 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; 0.01 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; -0.13 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; -0.30 &lt;/td&gt;
-   &lt;td style="text-align:right;"&gt; 0.44 &lt;/td&gt;
+   &lt;td style="text-align:left;padding-left: 2em;" indentlevel="1"&gt; Ret &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.02 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -0.14 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -0.06 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.02 &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## 投资组合收益率
 
-&lt;img src="logo/2023-10-29_214550.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_214550.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## 投资组合收益率
 
-&lt;img src="logo/2023-10-29_215525.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_215525.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url('logo/xiaohui.jpg')
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## Fama-MacBeth对下月收益率
 
-&lt;img src="logo/2023-10-29_223552.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_223552.png" width="100%" style="display: block; margin: auto;" /&gt;
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## Fama-MacBeth对下月收益率
 
-&lt;img src="logo/2023-10-29_223746.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_223746.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
@@ -403,9 +411,13 @@ background-position: 90% 8%
 
 - Atmaz and Basak (2018)认为盈利偏差影响分歧和预期收益率的关系
 
+--
+
 - 基于季节性随机游走的盈利意外定义（Earnings Surprise,  `\(SUE\)`）：
 `$$SUE_{i,q}^{SRW\text{ }}=\frac{{{E}_{i,q}}-E_{i,q-4}^{\text{ }}}{{{P}_{i,q}}}$$`
 其中，  `\(i\)` 是某个公司； `\(q\)` 是某个季度；  `\({E}_{i,q}\)` 是当季度每股盈利； `\({E}_{i,q-4}\)` 是去年同季度的每股盈利； `\({P}_{i,q}\)`是财报发布前20天的股价； `\({SRW}\)`是季节性随机游走（Seasonal Random Walk）
+
+--
 
 - 基于分析师预测（ `\(Analyst\)`）来定义盈利意外：
 `$$SUE_{i,q}^{Analyst\text{ }}=\frac{{{E}_{i,q}}-E_{i,q}^{Analyst\text{ }}}{{{P}_{i,q}}}$$`
@@ -413,13 +425,15 @@ background-position: 90% 8%
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## 影响机制
 
 - Hong and Sraer (2016)认为负向效应在高beta的股票中更为显著
+
+--
 
 - 回归方程如下：
 `$$\begin{align}
@@ -437,57 +451,57 @@ background-position: 90% 8%
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## 按beta分类的回归结果
 
-&lt;img src="logo/2023-10-29_233741.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_233741.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## 按beta分类的回归结果
 
-&lt;img src="logo/2023-10-29_234358.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_234358.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## 按beta分类的回归结果
 
-&lt;img src="logo/2023-10-29_234417.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_234417.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## Nagel (2005)机构持有量理论
 
-&lt;img src="logo/2023-10-29_234924.png" width="95%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_234924.png" width="95%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
 ## Nagel (2005)机构持有量理论
 
-&lt;img src="logo/2023-10-29_234948.png" width="95%" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/chen-weitao/images/test/2023-10-29_234948.png" width="95%" style="display: block; margin: auto;" /&gt;
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
@@ -524,7 +538,7 @@ background-position: 90% 8%
 
 ---
 
-background-image: url(logo/xiaohui.jpg)
+background-image: url('https://cdn.jsdelivr.net/gh/chen-weitao/images/test/xiaohui.jpg')
 background-size: 100px
 background-position: 90% 8%
 
